@@ -34,11 +34,15 @@ By using this project and accessing external resources linked herein, you agree 
 
 ## Getting Started
 
-If you want to try this project out for yourself, follow these steps:
+If you want to try this project out for yourself, follow these steps, please keep in mind that this is requires appropriate hardware to run (tested on RTX 3070):
 
-1. Install ComfyUI: 
-2. Install SDXL 1.0 Model: 
-3. Install LORAs:
+1. Install ComfyUI: https://www.youtube.com/watch?v=KTPLOqAMR0s
+3. Install required plugins: (ComfyUI Manager https://github.com/ltdrdata/ComfyUI-Manager and https://github.com/Fannovel16/comfyui_controlnet_aux); Tutorial: https://www.youtube.com/watch?v=DMxnf4WXMsY
+2. Install SDXL 1.0 Model: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0 (version 1.0 0.9)
+3. Install LoRAs:
+ - ControlNet: https://huggingface.co/stabilityai/control-lora (128 or 256)
+ - Pixel Perfect: https://civitai.com/models/120096?modelVersionId=135931
+ - Microverse: 
 
 4. Download the JSON Workflow from the Workflow folder
 5. Load the Workflow JSON
